@@ -14,6 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scenes:
   - Path: Assets/Scenes/CollaborativeSandbox.unity
-    Projects: []
+    Projects:
+    - ProjectPath: Needle/CollaborativeSandbox
     BuilderScene: 
-  Projects: []
+  - Path: Assets/Scenes/SergioDeIscar.unity
+    Projects:
+    - ProjectPath: Needle/CollaborativeSandbox
+    BuilderScene: 
+  Projects:
+  - ProjectPath: Needle/CollaborativeSandbox
