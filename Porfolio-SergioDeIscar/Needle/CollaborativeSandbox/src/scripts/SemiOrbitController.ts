@@ -1,72 +1,74 @@
 import { Behaviour, serializable } from "@needle-tools/engine";
-import { Vector3, Object3D, MathUtils } from "three"
+import { Vector3, Object3D, MathUtils, Vector2 } from "three"
+import { ScrollController } from "./ScrollController";
 
 export class SemiOrbitController extends Behaviour {
-    @serializable()
-    maxAngleDistanceH: number = 0; // 0 - 360
 
-    @serializable()
-    maxAngleDistanceV: number = 0; // 0 - 360
+    @serializable(Object3D)
+    target: Object3D = new Object3D();
 
-    @serializable()
-    target: Object3D | undefined = undefined;
+    @serializable(Vector2)
+    maxAngle: Vector2 = new Vector2(0, 0); // x -> Horizontal, y -> Vertical
 
-    private screenWidth: number = 0;
-    private screenHeight: number = 0;
-    private mouseXPosition: number = 0;
-    private mouseYPosition: number = 0;
-    private distance: number = 0;
+    @serializable(ScrollController)
+    scrollController: ScrollController = new ScrollController();
 
-    private initialAngleH: number = 0; // Ángulo inicial
-    private initialAngleV: number = 0; // Ángulo inicial
-    private mainPosition: Vector3 = new Vector3();
+    private screen = new Vector2();
+
+    private mainPosition = new Vector3(0, 0, 0);
+    private initAngle: Vector2 = new Vector2(0, 0);
+    private distance = 0;
+
+    private mouseX = 0;
+    private mouseY = 0;
 
     override start() {
-        if (this.target === undefined) return;
         this.resize();
-        this.inicializeSemiorbit(this.gameObject.transform.position, this.target);
 
-        window.onresize = () => {
-            this.resize();
-        };
+        this.scrollController.onScroll.addEventListener((position: Vector3) => {
+            this.updateMainPosition(position);
+        });
 
-        this.setOnMouseEvent();
+        this.updateMainPosition(this.gameObject.transform.position);
+
+        window.onresize = () => this.resize();
+
+        onmousemove = (event) => this.mouseMoveEvent(event);
     }
 
-    private setOnMouseEvent() {
-        onmousemove = (event) => {
-            // Calcula la posición del mouse
-            this.mouseXPosition = event.clientX - (this.screenWidth / 2);
-            this.mouseYPosition = event.clientY - (this.screenHeight / 2);
-            // Calcula el ángulo
-            const angleH = this.initialAngleH + MathUtils.degToRad((this.mouseXPosition / this.screenWidth) * this.maxAngleDistanceH) * -1;
-            const angleV = this.initialAngleV + MathUtils.degToRad((this.mouseYPosition / this.screenHeight) * this.maxAngleDistanceV) * -1;
-            // Calcula la posición de la cámara
-            const x = Math.sin(angleH) * this.distance;
-            const z = Math.cos(angleH) * this.distance;
-            const y = Math.sin(angleV) * this.distance;
-            // Actualiza la posición
-            this.gameObject.transform.position.x = x
-            this.gameObject.transform.position.z = z;
-            this.gameObject.transform.position.y = y;
-            // Actualiza la rotación
-            this.gameObject.transform.lookAt(this.target?.position ?? new Vector3());
-        }
+    private updateMainPosition(position: Vector3) {
+        this.mainPosition.copy(position);
+        this.distance = this.mainPosition.distanceTo(this.target.position);
+        this.initAngle.x = Math.atan2(this.mainPosition.x, this.mainPosition.z);
+        this.initAngle.y = Math.atan2(this.mainPosition.y, this.mainPosition.z);
+
+        this.updateAngle();
+    }
+
+    private mouseMoveEvent(event: MouseEvent) {
+        this.mouseX = event.clientX - (this.screen.x / 2);
+        this.mouseY = event.clientY - (this.screen.y / 2);
+        this.updateAngle();
+    }
+
+    private updateAngle() {
+        let angleX = (MathUtils.degToRad(this.mouseX / this.screen.x * this.maxAngle.x) * -1) + this.initAngle.x;
+        let angleY = MathUtils.degToRad(this.mouseY / this.screen.y * this.maxAngle.y) + this.initAngle.y;
+
+        let x = Math.sin(angleX) * this.distance;
+        let z = Math.cos(angleX) * this.distance;
+        let y = Math.sin(angleY) * this.distance;
+
+        this.gameObject.position.x = x;
+        this.gameObject.position.z = z;
+        this.gameObject.position.y = y;
+
+        this.gameObject.lookAt(this.target.position);
     }
 
     private resize() {
-        this.screenWidth = window.innerWidth;
-        this.screenHeight = window.innerHeight;
+        this.screen.x = window.innerWidth;
+        this.screen.y = window.innerHeight;
     }
 
-    inicializeSemiorbit(position: Vector3, target: Object3D) {
-        this.mainPosition.copy(position);
-        // Distancia entre mainPosition y el target
-        this.distance = this.mainPosition.distanceTo(target.position);
-        this.initialAngleH = Math.atan2(this.mainPosition.x, this.mainPosition.z);
-        this.initialAngleV = Math.atan2(this.mainPosition.y, this.mainPosition.z);
-        this.gameObject.transform.position.copy(position);
-        this.target = target;
-        this.gameObject.transform.lookAt(target.position);
-    }
 }
