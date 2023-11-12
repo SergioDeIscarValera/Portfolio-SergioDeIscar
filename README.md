@@ -4,9 +4,9 @@ Porfolio/CV realizado con ThreeJs, Unity, Blender y Needle Engine.
 
 ## Descripción
 
-Este proyecto es un portfolio interactivo 3D en el que a través de la interacción con el entorno se puede acceder a información sobre mi y mis proyectos.
+Este proyecto es un portfolio interactivo 3D en el que a través de la interacción con el entorno se puede acceder a información sobre mí y mis proyectos.
 
-## Sobre mi
+## Sobre mí
 
 Soy un estudiante de 2º de Desarrollo de Aplicaciones Multiplataforma en el IES Luis Vives. Desde 2017, me sumergí en el mundo de la programación, comenzando con Unity y Blender para la creación de pequeños juegos 3D.
 
@@ -16,7 +16,7 @@ A lo largo de este tiempo, he ampliado mis conocimientos significativamente, apr
 
 ### BigPig
 
-Proyecto destacado, un juego creado con el motor gráfico Unity. En este juego, los jugadores gestionan y dirigen su propia granja, cultivando diversos cultivos, criando animales y mejorando constantemente vienes de producción (infraestructura). La inclusión de diferentes climas y diversas mecánicas hacen que la experiencia sea entretenida y dinámica.
+Proyecto destacado, un juego creado con el motor gráfico Unity. En este juego, los jugadores gestionan y dirigen su propia granja, cultivando diversos cultivos, criando animales y mejorando constantemente bienes de producción (infraestructura). La inclusión de diferentes climas y diversas mecánicas hacen que la experiencia sea entretenida y dinámica.
 
 [ver más...](http://bigpig.somee.com/)
 
@@ -32,6 +32,6 @@ Aplicación android con flutter ([GetX](https://pub.dev/packages/get)) consumien
 
 ## Screenshots
 
-<img src="./assets/unity_screen.png" width="533" height="286">
+<img src="./assets/unity_screen.PNG" width="533" height="286">
 
-<img src="./assets/screenshot.png" width="533" height="286">
+<img src="./assets/screenshot.PNG" width="533" height="286">

@@ -470,7 +470,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: "<span style='color: #f3969a'>Agradezco tu inter\xE9s
-            hasta este punto.</span> Si deseas ponerse en contacto conmigo, puedes
+            hasta este punto.</span> Si deseas ponerte en contacto conmigo, puedes
             hacer <span style='color: #6cc3d5'>clic para copiar mi correo electr\xF3nico</span>
             al portapapeles o mantener presionado para <span style='color: #ff7851'>abrir
             tu aplicaci\xF3n de correo predeterminada en tu sistema.</span>"
@@ -836,7 +836,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Realice las practicas del grado medio en la empresa
+          m_StringArgument: "Realic\xE9 las pr\xE1cticas del grado medio en la empresa
             <span style='color: #56cc9d'>OriginPath</span>, su actividad es desarrollar
             <span style='color: #ff7851'>software empresarial a medida</span>, automatizando
             y optimizando sus procesos de empresariales, tambi\xE9n sirven como consultora
@@ -1748,7 +1748,7 @@ MonoBehaviour:
             destacado, un juego creado con el <span style='color: #6cc3d5'>motor
             gr\xE1fico Unity</span>. En este juego, los jugadores <span style='color:
             #56cc9d'>gestionan y dirigen su propia granja</span>, cultivando diversos
-            cultivos, criando animales y mejorando constantemente vienes de producci\xF3n
+            cultivos, criando animales y mejorando constantemente bienes de producci\xF3n
             (infraestructura). La inclusi\xF3n de diferentes climas y diversas mec\xE1nicas
             hacen que <span style='color: #ff7851'>la experiencia sea entretenida
             y din\xE1mica</span>."
@@ -2289,7 +2289,7 @@ PrefabInstance:
     - target: {fileID: 512544860705682168, guid: 75a7d475bdc16a644a74ed016041d60d,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: '<span style=''color: #ff7851''>Conocimientos abanzados:</span>'
+      value: '<span style=''color: #ff7851''>Conocimientos avanzados:</span>'
       objectReference: {fileID: 0}
     - target: {fileID: 512544860705682168, guid: 75a7d475bdc16a644a74ed016041d60d,
         type: 3}
@@ -2860,7 +2860,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: "\"Debes saber que ahora me toca dar la talla.<br> Vengo
             a hacer que la pe\xF1a diga: vaya, vaya.<br> Vengo a abrir la puerta
-            de una nueva etapa.<br> Solo espere a que la pe\xF1a este preparada.<br>
+            de una nueva etapa.<br> Solo esper\xE9 a que la pe\xF1a est\xE9 preparada.<br>
             Afrontando cualquier reto.<br> Pulverizando todos los records.<br> Estoy
             listo, estoy dispuesto.<br> Ha llegado mi momento.\"<br> (Chojin, Mi
             turno)"
@@ -3139,6 +3139,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
       propertyPath: onPointerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1244702871}
@@ -3174,6 +3179,11 @@ PrefabInstance:
       objectReference: {fileID: 1244702871}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 635853162}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
       propertyPath: onPointerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -3205,6 +3215,11 @@ PrefabInstance:
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
@@ -3244,6 +3259,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: openWeb
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
       propertyPath: onPointerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: Needle.Typescript.GeneratedComponents.InfoManager, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -3276,6 +3296,11 @@ PrefabInstance:
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
       value: Needle.Typescript.GeneratedComponents.InfoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: Needle.Typescript.GeneratedComponents.OpenWeb, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
@@ -3346,6 +3371,11 @@ PrefabInstance:
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7430602632064785714, guid: 29af92bbe55ea0247adc94ca72c5a942,
@@ -9420,6 +9450,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
+        type: 3}
       propertyPath: onPointerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1244702871}
@@ -9495,6 +9530,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
+        type: 3}
       propertyPath: onPointerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: hideText
       objectReference: {fileID: 0}
@@ -9566,6 +9606,11 @@ PrefabInstance:
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: Needle.Typescript.GeneratedComponents.InfoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
       value: Needle.Typescript.GeneratedComponents.InfoManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,

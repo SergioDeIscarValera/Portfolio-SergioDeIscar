@@ -20,6 +20,10 @@
   <script>
     function start() {
       document.getElementsByClassName("splash_screen")[0].style.opacity = "0";
+      // Set the display to none after 500ms (Because threejs need to work with rycast)
+      setTimeout(function () {
+        document.getElementsByClassName("splash_screen")[0].style.display = "none";
+      }, 500);
     }
   </script>
 </head>
