@@ -7,10 +7,10 @@ export class ScrollController extends Behaviour {
     @serializable(Object3D)
     target: Object3D = new Object3D();
 
-    @serializable(Vector3)
-    lastPosition: Vector3 = new Vector3();
-    @serializable(Vector3)
-    lastTargetPosition: Vector3 = new Vector3();
+    @serializable(Object3D)
+    lastMainObject: Object3D = new Object3D();
+    @serializable(Object3D)
+    lastTarget: Object3D = new Object3D();
 
     @serializable(EventList)
     onScroll: EventList = new EventList();
@@ -23,7 +23,6 @@ export class ScrollController extends Behaviour {
     start() {
         this.initPosition.copy(this.mainObject.position);
         this.initTargetPosition.copy(this.target.position);
-
         window.addEventListener("wheel", (event) => this.scrollEvent(event));
     }
 
@@ -31,11 +30,10 @@ export class ScrollController extends Behaviour {
         // factor 0-1
         this.factor = MathUtils.clamp(this.factor + (event.deltaY * (0.001)), 0, 1);
         // Calcula la posición de la cámara
-        const lerpedPosition = this.mainObject.position.clone().lerpVectors(this.initPosition, this.lastPosition, this.factor);
-        const lerpedTargetPosition = this.target.position.clone().lerpVectors(this.initTargetPosition, this.lastTargetPosition, this.factor);
-        // Actualiza la posición
-        this.target.position.copy(lerpedTargetPosition);
-        //this.mainObject.position.copy(lerpedPosition);
+        const lerpedPosition = this.mainObject.position.clone().lerpVectors(this.initPosition, this.lastMainObject.position, this.factor);
+        const lerpedTarget = this.target.position.clone().lerpVectors(this.initTargetPosition, this.lastTarget.position, this.factor);
+        // Ajustar las posiciones
+        this.target.position.copy(lerpedTarget);
         // Mirar al target
         this.mainObject.lookAt(this.target.position);
         // Lanza el evento

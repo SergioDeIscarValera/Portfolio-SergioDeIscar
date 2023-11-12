@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -17,12 +17,27 @@
 
   <link rel="stylesheet" href="./src/styles/style.css">
   <link rel="stylesheet" href="./src/styles/myStyle.css">
+  <script>
+    function start() {
+      document.getElementsByClassName("splash_screen")[0].style.opacity = "0";
+    }
+  </script>
 </head>
 
 <body>
   <script type="module" src="./src/generated/gen.js"></script>
   <script type="module" src="./src/main.ts"></script>
   <needle-engine></needle-engine>
+  <div class="splash_screen">
+    <h1>¡Bienvenido a mi porfolio!</h1>
+    <p style="font-size: 1.2rem;">Este porfolio ha sido realizado con <span style="color: #f8f9fa;">ThreeJs,
+        Unity, Blender y
+        Needle Engine.</span>
+    </p>
+    <p><span style="color: #f8f9fa;">Apunta a los objetos</span> para obtener más información y <span
+        style="color: #f8f9fa;">muévete haciendo scroll.</span></p>
+    <input type="button" value="PULSA PARA EMPEZAR" onclick="start()" />
+  </div>
   <div class="icon_container">
     <a href="https://github.com/SergioDeIscarValera" target="_blank"
       style="width: 2.5rem; height: 2.5rem; margin-right: 1rem;">
@@ -35,7 +50,9 @@
   </div>
 
   <div id="text-container" class="text_container">
-    <p style="color: white; font-family: MPLUS;" id="text"></p>
+    <div style="width: 100%; display: flex; justify-content: center; align-items: center;">
+      <p style="color: black; font-family: MPLUS;" id="text"></p>
+    </div>
     <div id="image-container" class="image_container"></div>
   </div>
 </body>

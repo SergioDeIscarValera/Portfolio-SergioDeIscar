@@ -15,13 +15,11 @@ export class InfoManager extends Behaviour {
 
     public setText(text: string) {
         this.htmlText.innerHTML = text;
-        //this.htmlTextContainer.style.display = "block";
-        this.htmlTextContainer.style.opacity = "1";
+        this.htmlTextContainer.style.opacity = "1"; // Opacity for animation
     }
 
     public hideText() {
-        //this.htmlTextContainer.style.display = "none";
-        this.htmlTextContainer.style.opacity = "0";
+        this.htmlTextContainer.style.opacity = "0"; // Opacity for animation
     }
 
     public setImage(id: number) {

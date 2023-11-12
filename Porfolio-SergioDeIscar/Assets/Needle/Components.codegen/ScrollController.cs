@@ -9,8 +9,8 @@ namespace Needle.Typescript.GeneratedComponents
 	{
 		public UnityEngine.GameObject @mainObject = new UnityEngine.GameObject();
 		public UnityEngine.GameObject @target = new UnityEngine.GameObject();
-		public UnityEngine.Vector3 @lastPosition = new UnityEngine.Vector3();
-		public UnityEngine.Vector3 @lastTargetPosition = new UnityEngine.Vector3();
+		public UnityEngine.GameObject @lastMainObject = new UnityEngine.GameObject();
+		public UnityEngine.GameObject @lastTarget = new UnityEngine.GameObject();
 		public UnityEngine.Events.UnityEvent @onScroll = new UnityEngine.Events.UnityEvent();
 		public void start(){}
 	}
