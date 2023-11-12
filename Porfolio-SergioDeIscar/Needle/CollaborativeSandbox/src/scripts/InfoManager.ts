@@ -2,15 +2,18 @@ import { Behaviour, serializable } from "@needle-tools/engine";
 
 export class InfoManager extends Behaviour {
 
-    @serializable()
-    imagesPaths: string[] = [];
+    /*@serializable()
+    imagesNames: string[] = [];
+
+    private imagesPaths: string[] = [];*/
 
     private htmlText: HTMLElement = document.getElementById("text")!;
     private htmlTextContainer: HTMLElement = document.getElementById("text-container")!;
     private htmlImageContainer: HTMLElement = document.getElementById("image-container")!;
 
-    start(): void {
+    start() {
         this.hideText();
+        this.hideImage();
     }
 
     public setText(text: string) {
@@ -22,11 +25,15 @@ export class InfoManager extends Behaviour {
         this.htmlTextContainer.style.opacity = "0"; // Opacity for animation
     }
 
-    public setImage(id: number) {
-        this.htmlImageContainer.innerHTML += `<img src="${this.imagesPaths.at(id)}" alt="image" class="info_icon">`;
+    public setImage(imageName: string) {
+        let htmlImage = document.getElementById(imageName.toLowerCase())!;
+        htmlImage.style.display = "block";
     }
 
     public hideImage() {
-        this.htmlImageContainer.innerHTML = "";
+        let htmlImages = this.htmlImageContainer.getElementsByTagName("img");
+        for (var i = 0; i < htmlImages.length; i++) {
+            htmlImages[i].style.display = "none";
+        }
     }
 }

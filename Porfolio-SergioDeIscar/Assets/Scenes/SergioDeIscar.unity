@@ -849,39 +849,39 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
           Assembly-CSharp
         m_MethodName: setImage
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 3
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1244702871}
-        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
-          Assembly-CSharp
-        m_MethodName: setImage
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 11
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1244702871}
-        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
-          Assembly-CSharp
-        m_MethodName: setImage
-        m_Mode: 4
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 12
-          m_StringArgument: 
+          m_StringArgument: csharp
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: setImage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 3
+          m_StringArgument: docker
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: setImage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 11
+          m_StringArgument: mongodb
           m_BoolArgument: 0
         m_CallState: 2
   onPointerExitEvent:
@@ -1259,7 +1259,7 @@ PrefabInstance:
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
@@ -1279,27 +1279,37 @@ PrefabInstance:
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
-      value: 4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_Mode
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
@@ -1339,6 +1349,16 @@ PrefabInstance:
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 1244702871}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_Target
+      value: 
+      objectReference: {fileID: 1244702871}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_Target
       value: 
       objectReference: {fileID: 1244702871}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
@@ -1383,6 +1403,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
       propertyPath: onPointerExitEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: hideText
       objectReference: {fileID: 0}
@@ -1419,6 +1449,16 @@ PrefabInstance:
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: setImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_MethodName
+      value: setImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_MethodName
       value: setImage
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
@@ -1463,6 +1503,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_TargetAssemblyTypeName
+      value: Needle.Typescript.GeneratedComponents.InfoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_TargetAssemblyTypeName
+      value: Needle.Typescript.GeneratedComponents.InfoManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
       value: 3
       objectReference: {fileID: 0}
@@ -1490,6 +1540,41 @@ PrefabInstance:
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: '<span style=''color: #6cc3d5''>Conocimientos medios:</span>'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: aesa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: csharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      value: dart
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_StringArgument
+      value: git
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_StringArgument
+      value: kotlin
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_StringArgument
+      value: premiere
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_StringArgument
+      value: solidity
       objectReference: {fileID: 0}
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
@@ -1529,6 +1614,16 @@ PrefabInstance:
     - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984144857487094628, guid: dc0b7706971571b4e923d5310dbc7096,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1663,39 +1758,52 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
           Assembly-CSharp
         m_MethodName: setImage
-        m_Mode: 4
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: bigpig
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: setImage
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 10
-          m_StringArgument: 
+          m_StringArgument: csharp
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1244702871}
         m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
           Assembly-CSharp
         m_MethodName: setImage
-        m_Mode: 4
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 2
-          m_StringArgument: 
+          m_StringArgument: blender
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1244702871}
         m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
           Assembly-CSharp
         m_MethodName: setImage
-        m_Mode: 4
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 1
-          m_StringArgument: 
+          m_StringArgument: unity
           m_BoolArgument: 0
         m_CallState: 2
   onPointerExitEvent:
@@ -2016,12 +2124,12 @@ PrefabInstance:
     - target: {fileID: 512544860705682168, guid: 75a7d475bdc16a644a74ed016041d60d,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 512544860705682168, guid: 75a7d475bdc16a644a74ed016041d60d,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 512544860705682168, guid: 75a7d475bdc16a644a74ed016041d60d,
         type: 3}
@@ -2182,6 +2290,16 @@ PrefabInstance:
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: '<span style=''color: #ff7851''>Conocimientos abanzados:</span>'
+      objectReference: {fileID: 0}
+    - target: {fileID: 512544860705682168, guid: 75a7d475bdc16a644a74ed016041d60d,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 512544860705682168, guid: 75a7d475bdc16a644a74ed016041d60d,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: blender
       objectReference: {fileID: 0}
     - target: {fileID: 512544860705682168, guid: 75a7d475bdc16a644a74ed016041d60d,
         type: 3}
@@ -3007,17 +3125,17 @@ PrefabInstance:
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
@@ -3162,18 +3280,38 @@ PrefabInstance:
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
-      value: 13
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_FloatArgument
-      value: 8
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_FloatArgument
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 'Soy <span style=''color: #6cc3d5''>piloto de drone</span> titulado,
         he volado drones <span style=''color: #ff7851''>estabilizados y FPV.</span>'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: premiere
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: after
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      value: aesa
       objectReference: {fileID: 0}
     - target: {fileID: 2412029651706224491, guid: 29af92bbe55ea0247adc94ca72c5a942,
         type: 3}
@@ -6143,23 +6281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31aa9272be8c0646884d2598d985d82c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagesPaths:
-  - ./src/assets/After.png
-  - ./src/assets/Blender.png
-  - ./src/assets/Bigpig.png
-  - ./src/assets/Csharp.png
-  - ./src/assets/Dart.png
-  - ./src/assets/Firebase.png
-  - ./src/assets/Flutter.png
-  - ./src/assets/Git.png
-  - ./src/assets/Premiere.png
-  - ./src/assets/Solidity.png
-  - ./src/assets/Unity.png
-  - ./src/assets/Docker.png
-  - ./src/assets/Mongodb.png
-  - ./src/assets/Aesa.png
-  - ./src/assets/C++.png
-  - ./src/assets/Kotlin.png
 --- !u!1 &1324076543
 GameObject:
   m_ObjectHideFlags: 0
@@ -7754,26 +7875,39 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
           Assembly-CSharp
         m_MethodName: setImage
-        m_Mode: 4
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 1
-          m_StringArgument: 
+          m_StringArgument: csharp
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1244702871}
         m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
           Assembly-CSharp
         m_MethodName: setImage
-        m_Mode: 4
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 10
-          m_StringArgument: 
+          m_StringArgument: blender
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: setImage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: unity
           m_BoolArgument: 0
         m_CallState: 2
   onPointerExitEvent:
@@ -8090,7 +8224,7 @@ PrefabInstance:
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
@@ -8115,42 +8249,42 @@ PrefabInstance:
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[8].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
@@ -8445,12 +8579,12 @@ PrefabInstance:
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_FloatArgument
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_FloatArgument
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
@@ -8466,6 +8600,46 @@ PrefabInstance:
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: '<span style=''color: #f3969a''>Algo de conocimiento:</span>'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: cplusplus
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: docker
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      value: firebase
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_StringArgument
+      value: flutter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_StringArgument
+      value: mongodb
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_StringArgument
+      value: after
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[7].m_Arguments.m_StringArgument
+      value: after
+      objectReference: {fileID: 0}
+    - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[8].m_Arguments.m_StringArgument
+      value: after
       objectReference: {fileID: 0}
     - target: {fileID: 8435291832023840279, guid: 57d37ede6856fd9408ba3dc093f07d1a,
         type: 3}
@@ -9232,17 +9406,17 @@ PrefabInstance:
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
@@ -9397,7 +9571,7 @@ PrefabInstance:
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
@@ -9407,7 +9581,7 @@ PrefabInstance:
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
       propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_FloatArgument
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
@@ -9420,6 +9594,21 @@ PrefabInstance:
         visualizar gr\xE1ficos sobre sus preferencias y crear equipos Pok\xE9mon
         compartibles entre varios usuarios, con la capacidad de <span style='color:
         #56cc9d'>editarlos de manera concurrente.</span>"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: firebase
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: flutter
+      objectReference: {fileID: 0}
+    - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
+        type: 3}
+      propertyPath: onPointerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      value: dart
       objectReference: {fileID: 0}
     - target: {fileID: 6693528463439895294, guid: 1440b3fb0e5bf1e4ba8a18a1cda306a0,
         type: 3}
