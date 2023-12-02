@@ -24,11 +24,21 @@ Proyecto destacado, un juego creado con el motor gráfico Unity. En este juego, 
 
 ### PokeFlutter
 
-Aplicación android con flutter ([GetX](https://pub.dev/packages/get)) consumiendo la api [PokeApi](https://pokeapi.co/) y como base de datos FireBase (Auth y FireStore).
+Aplicación android con flutter ([GetX](https://pub.dev/packages/get)) consumiendo la api [PokeApi](https://pokeapi.co/) y como base de datos Firebase (Auth y FireStore).
 
 [ver más...](https://github.com/SergioDeIscarValera/PokeFlutter)
 
 <img src="./assets/pokeflutter.png" width="150" height="300">
+
+### ClimaFlutter
+
+Aplicación android/web con flutter consumiendo la api [AEMET OpenData](https://opendata.aemet.es/dist/index.html) y como base de datos Firebase (Auth, FireStore, Messaging y Hosting).
+
+[ver más...](https://github.com/SergioDeIscarValera/ClimaFlutter)
+
+[ver web...](https://clima-flutter-db.firebaseapp.com/)
+
+<img src="./assets/climaflutter.PNG" width="533" height="248">
 
 ## Screenshots
 
