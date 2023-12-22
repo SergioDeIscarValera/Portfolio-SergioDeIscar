@@ -1666,6 +1666,189 @@ Transform:
   m_Father: {fileID: 969208505}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &433301797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 433301798}
+  - component: {fileID: 433301801}
+  - component: {fileID: 433301800}
+  - component: {fileID: 433301799}
+  m_Layer: 0
+  m_Name: CuboBolas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &433301798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433301797}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.9599999, y: 1.5030001, z: 0.3}
+  m_LocalScale: {x: 14.1239395, y: 14.1239395, z: 14.1239395}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1138359544}
+  m_Father: {fileID: 1328939931}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433301799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433301797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a741f0ab53548fde09eb411c0185988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: https://github.com/SergioDeIscarValera/PomoFlutter
+--- !u!114 &433301800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433301797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34bd10fd10661b2b47830437e7b17099, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mousePointer: 1
+  onPointerClickEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 433301799}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.OpenWeb,
+          Assembly-CSharp
+        m_MethodName: openWeb
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPointerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: setText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "<span style='color: #ff7851'>PomoFlutter</span> es una
+            aplicaci\xF3n Android/Web desarrollada con <span style='color: #6cc3d5'>Flutter
+            (Dart)</span>. Esta aplicaci\xF3n almacena datos en <span style='color:
+            #ffce67'>Firebase (Auth, FireStore, Messaging y Hosting)</span>. Permite
+            a los usuarios crear tareas y ejecutarlas eficientemente utilizando la
+            t\xE9cnica pomodoro. La aplicaci\xF3n <span style='color: #56cc9d'>registra
+            tu rendimiento</span> y te hace graficas para que d\xE9 un vistazo puedas
+            juzgar tu trabajo."
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: setImage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 5
+          m_StringArgument: firebase
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: setImage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 6
+          m_StringArgument: flutter
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: setImage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 4
+          m_StringArgument: dart
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPointerExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: hideText
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1244702871}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.InfoManager,
+          Assembly-CSharp
+        m_MethodName: hideImage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPointerLongPressEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &433301801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433301797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42798c1a37db46409660e69421ebdd09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &448599749
 GameObject:
   m_ObjectHideFlags: 0
@@ -4942,6 +5125,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3660286544427091870, guid: 86447f552ca0c0747baaa19c3370d548,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3660286544427091870, guid: 86447f552ca0c0747baaa19c3370d548,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -6104,6 +6292,92 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055612809}
   m_Mesh: {fileID: 3369204955208606599, guid: 86447f552ca0c0747baaa19c3370d548, type: 3}
+--- !u!1 &1138359543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138359544}
+  - component: {fileID: 1138359546}
+  - component: {fileID: 1138359545}
+  m_Layer: 0
+  m_Name: Bolas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1138359544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138359543}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 433301798}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1138359545
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138359543}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ad7620c1c4e9eb542a7a304c436f99ff, type: 2}
+  - {fileID: 2100000, guid: 9e21534cb66e62c4c8961904c7bb140f, type: 2}
+  - {fileID: 2100000, guid: 726db2dcaaf300e45a8c00fbd22cffb2, type: 2}
+  - {fileID: 2100000, guid: 810ab14420e718542bae2d6812c99ba3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1138359546
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138359543}
+  m_Mesh: {fileID: -7232493626658043303, guid: 86447f552ca0c0747baaa19c3370d548, type: 3}
 --- !u!1 &1139443093
 GameObject:
   m_ObjectHideFlags: 0
@@ -6719,6 +6993,7 @@ Transform:
   - {fileID: 611590524}
   - {fileID: 1244702870}
   - {fileID: 1022524008}
+  - {fileID: 433301798}
   m_Father: {fileID: 969208505}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

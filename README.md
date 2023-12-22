@@ -22,13 +22,15 @@ Proyecto destacado, un juego creado con el motor gráfico Unity. En este juego, 
 
 <img src="./assets/bigpig.gif" width="533" height="300">
 
-### PokeFlutter
+### PomoFlutter
 
-Aplicación android con flutter ([GetX](https://pub.dev/packages/get)) consumiendo la api [PokeApi](https://pokeapi.co/) y como base de datos Firebase (Auth y FireStore).
+Aplicación web/android realizada con flutter, como base de datos utiliza Firebase (Auth, Firestore, y Hosting) para la gestión eficiente de tareas utilizando el método pomodoro.
 
-[ver más...](https://github.com/SergioDeIscarValera/PokeFlutter)
+[ver más...](https://github.com/SergioDeIscarValera/PomoFlutter)
 
-<img src="./assets/pokeflutter.png" width="150" height="300">
+[ver web...](https://pomo-flutter.web.app/)
+
+<img src="./assets/pomoflutter.PNG" width="533" height="248">
 
 ### ClimaFlutter
 
@@ -45,3 +47,11 @@ Aplicación android/web con flutter consumiendo la api [AEMET OpenData](https://
 <img src="./assets/unity_screen.PNG" width="533" height="286">
 
 <img src="./assets/screenshot.PNG" width="533" height="286">
+
+### PokeFlutter
+
+Aplicación android con flutter ([GetX](https://pub.dev/packages/get)) consumiendo la api [PokeApi](https://pokeapi.co/) y como base de datos Firebase (Auth y FireStore).
+
+[ver más...](https://github.com/SergioDeIscarValera/PokeFlutter)
+
+<img src="./assets/pokeflutter.png" width="150" height="300">
