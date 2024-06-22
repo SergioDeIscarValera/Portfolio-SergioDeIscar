@@ -8,9 +8,11 @@ Este proyecto es un portfolio interactivo 3D en el que a través de la interacci
 
 ## Sobre mí
 
-Soy un estudiante de 2º de Desarrollo de Aplicaciones Multiplataforma en el IES Luis Vives. Desde 2017, me sumergí en el mundo de la programación, comenzando con Unity y Blender para la creación de pequeños juegos 3D.
+Soy un programador autodidacta con experiencia en el desarrollo de aplicaciones web, móviles, videojuegos y multiplataforma. En 2017, comencé a sumergirme en el mundo de la programación, comenzando con Unity y Blender para la creación de pequeños juegos 3D.
 
-A lo largo de este tiempo, he ampliado mis conocimientos significativamente, aprendiendo programación orientada a objetos, orientada a eventos, entornos concurrentes, bases de datos, administración de sistemas Linux y Windows...
+Estudié Desarrollo de Aplicaciones Multiplataforma en el IES Luis Vives donde adquirí conocimientos en programación orientada a objetos, orientada a eventos, entornos concurrentes, bases de datos...
+
+Actualmente, estoy trabajando como desarrollador de software en [Ahyres](https://ahyres.com/), donde estoy involucrado en el desarrollo de un SaaS para la gestión y planificación de vuelos de drones.
 
 ## Proyectos
 
@@ -21,6 +23,15 @@ Proyecto destacado, un juego creado con el motor gráfico Unity. En este juego, 
 [ver más...](http://bigpig.somee.com/)
 
 <img src="./assets/bigpig.gif" width="533" height="300">
+
+### Virtual Origen: Smart Home
+
+Virtual Origen es una aplicación diseñada para optimizar el uso de la energía en una finca tecnológicamente avanzada situada en las afueras de Cebolla, Toledo. El proyecto tiene como objetivo gestionar los recursos energéticos de la finca de manera eficiente y automática, basándose exclusivamente en la energía solar almacenada en baterías debido a la falta de suministro eléctrico convencional. La aplicación permite la gestión inteligente de dispositivos de alto consumo y sistemas de riego, adaptándose a variables como las condiciones climáticas y el estado de las baterías.
+
+[ver más...](https://github.com/SergioDeIscarValera/VirtualOrigen)
+
+<img src="./assets/virtualorigne01.jpg" width="533" height="300">
+<img src="./assets/virtualorigne02.png" width="533" height="300">
 
 ### PomoFlutter
 
